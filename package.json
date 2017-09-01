@@ -14,7 +14,7 @@
   },
   "scripts": {
     "build": "babel *.js -d dist --ignore *.test.js",
-    "postinstall": "npm run build"
+    "postinstall": "npm install && npm run build"
   },
   "files": [
     "dist"
