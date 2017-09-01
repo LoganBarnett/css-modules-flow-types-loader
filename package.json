@@ -13,8 +13,7 @@
     "node": ">=4"
   },
   "scripts": {
-    "build": "babel *.js -d dist --ignore *.test.js",
-    "postinstall": "npm install && npm run build"
+    "build": "babel *.js -d dist --ignore *.test.js"
   },
   "files": [
     "dist"
